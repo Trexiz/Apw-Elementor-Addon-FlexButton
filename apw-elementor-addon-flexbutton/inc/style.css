@@ -1,0 +1,36 @@
+a.flex_button canvas {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+
+a.flex_button {
+	background: none;
+	padding: 20px;
+	border-radius: 50px;
+	position: relative;
+	margin-top: 5px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	z-index: 2;
+	font-weight: 100;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+a.flex_button:hover {
+	color: #fff;
+}
+a.flex_button:active {
+	color: #fff;
+}
+a.flex_button:focus {
+	color: #fff;
+}
+a.flex_button:visited {
+	color: #fff;
+}
